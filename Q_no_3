@@ -1,0 +1,2 @@
+my_string = "C:\\Program Files\\App"
+print(my_string)
