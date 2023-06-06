@@ -1,0 +1,28 @@
+Escape characters are special characters used in programming languages or text editors to represent characters that cannot be easily typed or displayed. They are typically denoted by a backslash (\) followed by a specific character or sequence of characters.
+
+Escape characters are commonly used to insert special characters, control characters, or formatting characters into strings or text documents. They allow you to include characters that would otherwise be interpreted differently or have special meaning within the programming language or text format.
+
+Here are a few examples of escape characters and their usage in programming languages like Python or C:
+
+1. Newline character (\n): It represents a line break or a new line.
+   Example: "Hello\nWorld" would display as:
+            Hello
+            World
+
+2. Tab character (\t): It represents a horizontal tab.
+   Example: "Name:\tJohn" would display as:
+            Name:    John
+
+3. Double quote character (\"): It represents a double quotation mark.
+   Example: "She said, \"Hello!\"" would display as:
+            She said, "Hello!"
+
+4. Backslash character (\\): It represents a literal backslash.
+   Example: "C:\\Program Files\\App" would display as:
+            C:\Program Files\App
+
+5. Carriage return (\r): It represents a carriage return, commonly used in text files for line breaks on older systems.
+   Example: "Hello\rWorld" would display as:
+            World
+
+It's important to note that the specific escape characters and their meaning can vary depending on the programming language or text editor being used. It's always recommended to consult the documentation or specific language references for accurate information on escape characters in a particular context.
