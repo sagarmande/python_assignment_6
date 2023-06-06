@@ -1,0 +1,7 @@
+In the context of escape characters, the escape sequences `\n` and `\t` have specific meanings:
+
+1. `\n` represents the newline character. When encountered in a string or text document, it creates a line break or moves the cursor to the beginning of the next line. This allows you to display or structure text on separate lines.
+
+2. `\t` represents the tab character. It inserts a horizontal tab or indentation into the text. When encountered, it typically moves the cursor to the next tab stop or a predefined number of spaces, depending on the application or context.
+
+These escape sequences are commonly used in programming languages, text editors, and command line interfaces to format and control the layout of text. They provide a way to introduce special characters or control characters that cannot be easily typed directly.
