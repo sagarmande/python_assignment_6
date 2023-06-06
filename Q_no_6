@@ -1,0 +1,19 @@
+Let's evaluate the given expressions one by one:
+
+1. `'Hello, world!'[1]`:
+   This expression accesses the character at index 1 in the string `'Hello, world!'`. In Python, indexing starts from 0, so the character at index 1 is `'e'`. Therefore, the value of this expression is `'e'`.
+
+2. `'Hello, world!'[0:5]`:
+   This expression utilizes slicing to extract a substring from index 0 to index 4 (excluding index 5) from the string `'Hello, world!'`. The substring includes characters at indexes 0, 1, 2, 3, and 4. Therefore, the value of this expression is `'Hello'`.
+
+3. `'Hello, world!'[:5]`:
+   Similar to the previous expression, this slicing operation starts from the beginning of the string and extracts characters up to index 4 (excluding index 5). So, it includes characters at indexes 0, 1, 2, 3, and 4. The value of this expression is also `'Hello'`.
+
+4. `'Hello, world!'[3:]`:
+   This expression performs slicing from index 3 to the end of the string. It includes characters starting from index 3 till the last character. Therefore, the value of this expression is `'lo, world!'`.
+
+To summarize:
+- `'Hello, world!'[1]` evaluates to `'e'`.
+- `'Hello, world!'[0:5]` evaluates to `'Hello'`.
+- `'Hello, world!'[:5]` evaluates to `'Hello'`.
+- `'Hello, world!'[3:]` evaluates to `'lo, world!'`.
