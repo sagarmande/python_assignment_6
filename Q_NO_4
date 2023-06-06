@@ -1,0 +1,9 @@
+my_string = 'He said, \'Hello!\''
+print(my_string)
+
+
+He said, 'Hello!'
+
+
+my_string = "She said, \"Hi!\""
+print(my_string)
