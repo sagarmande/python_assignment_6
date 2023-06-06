@@ -1,0 +1,27 @@
+string = 'Hello'
+width = 10
+fillchar = '-'
+result = string.rjust(width, fillchar)
+print(result)  # Output: '-----Hello'
+
+
+
+string = 'Hello'
+width = 10
+fillchar = '-'
+result = string.ljust(width, fillchar)
+print(result)  # Output: 'Hello-----'
+
+
+string = 'Hello'
+width = 10
+fillchar = '-'
+result = string.ljust(width, fillchar)
+print(result)  # Output: 'Hello-----'
+
+
+string = 'Hello'
+width = 10
+fillchar = '-'
+result = string.center(width, fillchar)
+print(result)  # Output: '--Hello---'
