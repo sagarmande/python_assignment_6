@@ -1,0 +1,11 @@
+The values of the given expressions are as follows:
+
+1. `'Remember, remember, the fifth of July.'.split()`
+   This expression splits the string `'Remember, remember, the fifth of July.'` into a list of substrings using whitespace as the delimiter. The result is a list of words: `['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']`. Therefore, the value of this expression is `['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']`.
+
+2. `'-'.join('There can only one.'.split())`
+   This expression splits the string `'There can only one.'` into a list of substrings using whitespace as the delimiter. The resulting list is `['There', 'can', 'only', 'one.']`. Then, the `'-'` character is used to join the elements of the list, resulting in a string where the elements are separated by `-`. The final string is `'There-can-only-one.'`. Therefore, the value of this expression is `'There-can-only-one.'`.
+
+To summarize:
+- The value of `'Remember, remember, the fifth of July.'.split()` is `['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']`.
+- The value of `'-'.join('There can only one.'.split())` is `'There-can-only-one.'`.
