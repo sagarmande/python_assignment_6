@@ -1,0 +1,29 @@
+my_string = """Line 1
+Line 2
+Line 3"""
+print(my_string)
+
+
+Line 1
+Line 2
+Line 3
+
+
+
+var myString = "Line 1" +
+               "Line 2" +
+               "Line 3";
+console.log(myString);
+Line 1
+Line 2
+Line 3
+
+
+
+#include <stdio.h>
+
+int main() {
+    char my_string[] = "Line 1\x0ALine 2\x0ALine 3";
+    printf("%s\n", my_string);
+    return 0;
+}
